@@ -1,0 +1,31 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "This project is a decentralized crowdfunding application built for the Ethereum blockchain. It allows users to create campaigns, contribute ETH, and receive reward tokens (CWD) in return.",
+  "main": "hardhat.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xJam-byte/final_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/xJam-byte/final_project/issues"
+  },
+  "homepage": "https://github.com/xJam-byte/final_project#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}
