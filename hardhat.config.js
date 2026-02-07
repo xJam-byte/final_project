@@ -1,6 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
 
-/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.20",
   paths: {
@@ -13,8 +12,6 @@ module.exports = {
     hardhat: {
       chainId: 31337,
     },
-    // Configuration for Sepolia Testnet
-    // User needs to add their own URL and Private Key
     sepolia: {
       url: "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID",
       accounts: [
